@@ -8,7 +8,7 @@ A language I develop myself for learning purposes and having fun on coding!
 
 ## token mutations:
 ```
-`TOKEN_NONE`
+`TOKEN_NONE` or other than self/mutation of self
 |\__`TOKEN_OPERATION` is a group of operations! Example: `+` -> `TOKEN_PLUS`
 |\__`TOKEN_LABEL`
 |   |\__`TOKEN_TYPE`
