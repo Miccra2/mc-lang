@@ -7,6 +7,7 @@ A language I develop myself for learning purposes and having fun on coding!
 - `mclk` mc linker
 
 ## token mutations:
+```
 `TOKEN_NONE`
 |\\\_\_`TOKEN_OPERATION` is a group of operations! Example: `+` -> `TOKEN_PLUS`
 |\\\_\_`TOKEN_LABEL`
@@ -18,6 +19,7 @@ A language I develop myself for learning purposes and having fun on coding!
  \\\_\_`TOKEN_DIGIT`
    |\\\_\_`TOKEN_INTIGER`
    |\\\_\_`TOKEN_FOLATINGPOINT`
+```
 
 ## TODO:
 - ??.??.?? : ?.?.? [ ] bootstrap in another language to compile into assembly
