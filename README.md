@@ -9,16 +9,16 @@ A language I develop myself for learning purposes and having fun on coding!
 ## token mutations:
 ```
 `TOKEN_NONE`
-|\\\_\_`TOKEN_OPERATION` is a group of operations! Example: `+` -> `TOKEN_PLUS`
-|\\\_\_`TOKEN_LABEL`
-|  |\\\_\_`TOKEN_TYPE`
-|  |\\\_\_`TOKEN_STATEMENT`
-|  |\\\_\_`TOKEN_VARIABLE`
-|  |\\\_\_`TOKEN_FUNCION`
+|\__`TOKEN_OPERATION` is a group of operations! Example: `+` -> `TOKEN_PLUS`
+|\__`TOKEN_LABEL`
+|   |\__`TOKEN_TYPE`
+|   |\__`TOKEN_STATEMENT`
+|   |\__`TOKEN_VARIABLE`
+|    \__`TOKEN_FUNCION`
 |
- \\\_\_`TOKEN_DIGIT`
-   |\\\_\_`TOKEN_INTIGER`
-   |\\\_\_`TOKEN_FOLATINGPOINT`
+ \__`TOKEN_DIGIT`
+    |\__`TOKEN_INTIGER`
+     \__`TOKEN_FOLATINGPOINT`
 ```
 
 ## TODO:
