@@ -43,7 +43,7 @@ int lDelete(PLIST *list) {
 }
 
 int lDeleteNode(PLISTNODE *node) {
-    free(node*);
+    free(*node);
     *node = NULL;
 }
 
@@ -56,7 +56,7 @@ PLISTNODE lIndex(PLIST list, size_t index) {
         if (node == NULL) {
             return NULL;
         }
-        node->node;
+        node = node->node;
     }
     return node;
 }
