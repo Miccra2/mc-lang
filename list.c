@@ -142,3 +142,7 @@ PLISTNODE lRemove(PLIST list, size_t index) {
     list->length--;
     return dnode;
 }
+
+void *lGet(PLIST list, size_t index) {
+    return (void *)lIndex(list, index)->data;
+}

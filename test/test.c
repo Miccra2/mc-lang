@@ -16,9 +16,9 @@ int main(int argc, char *argv[]) {
     lInsert(list, 2, sizeof(array[2]), &array[2]);
 
     // test list data
-    printf("list[0]: %i\n", *(size_t *)lIndex(list, 0)->data);
-    printf("list[1]: %i\n", *(size_t *)lIndex(list, 1)->data);
-    printf("list[2]: %i\n", *(size_t *)lIndex(list, 2)->data);
+    printf("list[0]: %i\n", *(size_t *)lGet(list, 0));
+    printf("list[1]: %i\n", *(size_t *)lGet(list, 1));
+    printf("list[2]: %i\n", *(size_t *)lGet(list, 2));
 
     return 0;
 }
